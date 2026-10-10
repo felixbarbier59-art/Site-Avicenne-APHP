@@ -2,561 +2,103 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Découvrez le service de chirurgie orthopédique et traumatologique de l’Hôpital Avicenne AP-HP, dirigé par le Pr Thomas Gregory."
-    />
-    <meta name="theme-color" content="#0b2dff" />
-    <meta property="og:title" content="Orthopédie Avicenne — Le mouvement, retrouvé" />
-    <meta
-      property="og:description"
-      content="Une expertise universitaire, un parcours de soin coordonné et une chirurgie tournée vers l’avenir."
-    />
-    <meta property="og:image" content="assets/chirurgie-innovation.webp" />
-    <title>Orthopédie Avicenne — Le mouvement, retrouvé</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f9fb" />
+    <meta name="description" content="Découvrez le service de chirurgie orthopédique et traumatologique de l’Hôpital Avicenne AP–HP : consultations, expertises, équipe et accès." />
+    <meta property="og:title" content="Chirurgie orthopédique — Hôpital Avicenne AP–HP" />
+    <meta property="og:description" content="Les informations du service de chirurgie orthopédique et traumatologique de l’Hôpital Avicenne, à Bobigny." />
+    <meta property="og:image" content="assets/avicenne-entree.webp" />
+    <title>Chirurgie orthopédique — Hôpital Avicenne AP–HP</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#contenu">Aller au contenu</a>
-    <div class="scroll-progress" aria-hidden="true"><span></span></div>
-
-    <div class="service-alert">
-      <div class="shell service-alert__inner">
-        <p>
-          <span class="live-dot" aria-hidden="true"></span>
-          Urgences Main Avicenne — Paris-Nord
-          <strong>24h/24 · 7j/7</strong>
-        </p>
-        <a href="#urgences">Que faire en urgence ? <span aria-hidden="true">↗</span></a>
+    <div class="topline">
+      <div class="container topline-inner">
+        <a class="aphp" href="https://www.aphp.fr/" target="_blank" rel="noopener" aria-label="AP–HP, site officiel"><span class="aphp-symbol">AP</span><span><strong>AP–HP</strong><small>Assistance Publique – Hôpitaux de Paris</small></span></a>
+        <span class="group-name">Hôpitaux universitaires Paris Seine-Saint-Denis</span>
+        <a class="official-link" href="https://www.aphp.fr/avicenne/service-de-chirurgie-orthopedique-et-traumatologique" target="_blank" rel="noopener">Page officielle AP–HP <span aria-hidden="true">↗</span></a>
       </div>
     </div>
 
-    <header class="site-header" data-header>
-      <div class="shell header-inner">
-        <a class="brand" href="#top" aria-label="Orthopédie Avicenne — accueil">
-          <span class="brand-mark" aria-hidden="true">
-            <span></span><span></span>
-          </span>
-          <span class="brand-copy">
-            <strong>ORTHO<span>·</span>AVICENNE</strong>
-            <small>CHIRURGIE ORTHOPÉDIQUE · AP–HP</small>
-          </span>
-        </a>
-
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
-          <span class="sr-only">Ouvrir le menu</span>
-          <span></span><span></span>
-        </button>
-
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="site-brand" href="#accueil" aria-label="Hôpital Avicenne — accueil"><span class="brand-cross" aria-hidden="true">+</span><span><strong>Hôpital Avicenne</strong><small>CHIRURGIE ORTHOPÉDIQUE & TRAUMATOLOGIQUE</small></span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span class="sr-only">Ouvrir le menu</span></button>
         <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
-          <a href="#expertises">Expertises</a>
-          <a href="#parcours">Votre parcours</a>
-          <a href="#innovation">Innovation</a>
-          <a href="#equipe">L’équipe</a>
-          <a href="#acces">Accès</a>
-          <a
-            class="button button--small button--blue"
-            href="https://mon.aphp.fr/demande/type/consultation/95/21"
-            target="_blank"
-            rel="noopener"
-          >
-            Prendre rendez-vous
-            <span aria-hidden="true">↗</span>
-          </a>
+          <a href="#service">Le service</a><a href="#expertises">Expertises</a><a href="#equipe">Équipe</a><a href="#innovation">Recherche</a><a href="#acces">Accès</a>
+          <a class="nav-cta" href="https://mon.aphp.fr/demande/type/consultation/95/21" target="_blank" rel="noopener">Prendre rendez-vous <span aria-hidden="true">↗</span></a>
         </nav>
       </div>
     </header>
 
     <main id="contenu">
-      <section class="hero" id="top">
-        <div class="hero-orbit hero-orbit--one" aria-hidden="true"></div>
-        <div class="hero-orbit hero-orbit--two" aria-hidden="true"></div>
-        <div class="shell hero-grid">
-          <div class="hero-copy reveal">
-            <p class="eyebrow"><span>01</span> Hôpital universitaire Avicenne · Bobigny</p>
-            <h1>Remettre le <em>mouvement</em> au centre.</h1>
-            <p class="hero-lead">
-              Une expertise universitaire en chirurgie orthopédique et traumatologique,
-              un parcours coordonné et une innovation qui reste au service de l’humain.
-            </p>
-            <div class="hero-actions">
-              <a
-                class="button button--blue button--large"
-                href="https://mon.aphp.fr/demande/type/consultation/95/21"
-                target="_blank"
-                rel="noopener"
-              >
-                Prendre rendez-vous <span aria-hidden="true">↗</span>
-              </a>
-              <a class="text-link" href="#expertises">Découvrir nos expertises <span aria-hidden="true">↓</span></a>
-            </div>
-            <div class="hero-proof" aria-label="Informations clés">
-              <div>
-                <span class="proof-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" /></svg>
-                </span>
-                <p><strong>Service public</strong><small>Consultations secteur 1</small></p>
-              </div>
-              <div>
-                <span class="proof-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18" /></svg>
-                </span>
-                <p><strong>Prise en charge</strong><small>Du diagnostic au suivi</small></p>
-              </div>
-            </div>
+      <section class="hero" id="accueil">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> HÔPITAL UNIVERSITAIRE · BOBIGNY</p>
+            <h1>Chirurgie orthopédique <span>&</span> traumatologique</h1>
+            <p class="hero-lead">Le service de l’Hôpital Avicenne AP–HP prend en charge les pathologies et traumatismes de l’appareil locomoteur.</p>
+            <div class="hero-byline"><span class="mini-avatar">TG</span><span><small>CHEF DE SERVICE</small><strong>Pr Thomas Gregory</strong></span><i></i><span class="sector-pill">Consultations publiques · secteur 1</span></div>
+            <div class="hero-actions"><a class="button button--blue" href="https://mon.aphp.fr/demande/type/consultation/95/21" target="_blank" rel="noopener">Demander un rendez-vous <span aria-hidden="true">↗</span></a><a class="button button--plain" href="tel:+33148957100">Appeler le 01 48 95 71 00 <span aria-hidden="true">→</span></a></div>
+            <a class="professional-link" href="https://direct.aphp.fr/service-page/79" target="_blank" rel="noopener">Vous êtes médecin de ville ? Adresser un patient via Direct AP–HP <span aria-hidden="true">↗</span></a>
           </div>
-
-          <div class="hero-visual reveal reveal--delay">
-            <div class="hero-image-wrap">
-              <img
-                src="assets/chirurgie-innovation.webp"
-                alt="Équipe chirurgicale de l’Hôpital Avicenne lors d’une intervention assistée par réalité mixte"
-                width="896"
-                height="504"
-                fetchpriority="high"
-              />
-              <div class="hero-image-shade"></div>
-              <div class="visual-tag visual-tag--top">
-                <span class="visual-tag__pulse" aria-hidden="true"></span>
-                <p><small>Chef de service</small><strong>Pr Thomas Gregory</strong></p>
-              </div>
-              <div class="visual-tag visual-tag--bottom">
-                <span class="visual-tag__number">2017</span>
-                <p>Première mondiale<br />en réalité mixte</p>
-              </div>
-              <p class="image-credit">© AP–HP</p>
-            </div>
-            <div class="hero-index" aria-hidden="true">AVC&nbsp;—&nbsp;93</div>
-          </div>
+          <figure class="hero-photo"><img src="assets/avicenne-entree.webp" alt="Entrée principale de l’Hôpital Avicenne AP–HP à Bobigny" width="896" height="504" fetchpriority="high" /><figcaption><span>Hôpital Avicenne</span><span>Bobigny · Seine-Saint-Denis</span></figcaption><span class="photo-credit">Photo : AP–HP</span></figure>
         </div>
+        <div class="container hero-bottom"><span>Un service de l’<strong>AP–HP</strong></span><span class="bottom-divider"></span><span>Hôpital universitaire Avicenne</span><span class="bottom-divider"></span><span>125 rue de Stalingrad · 93000 Bobigny</span></div>
+      </section>
 
-        <div class="shell alliance-strip reveal">
-          <p>Un service hospitalo-universitaire engagé avec</p>
-          <div class="alliance-list" aria-label="Institutions partenaires">
-            <span>AP–HP</span>
-            <i aria-hidden="true"></i>
-            <span>Hôpital Avicenne</span>
-            <i aria-hidden="true"></i>
-            <span>Université Sorbonne Paris Nord</span>
-          </div>
+      <section class="urgent-strip" id="urgences"><div class="container urgent-inner"><span class="urgent-icon" aria-hidden="true">+</span><div><strong>Urgences de la main — accueil dédié 24h/24, 7j/7</strong><p>L’accueil des urgences de la main se fait au sein du service des urgences de l’Hôpital Avicenne.</p></div><a href="https://www.aphp.fr/espace-medias/liste-ressources-presse/lhopital-avicenne-ap-hp-la-prise-en-charge-des-urgences-mains" target="_blank" rel="noopener">Informations AP–HP <span aria-hidden="true">↗</span></a></div></section>
+
+      <section class="section service-section" id="service">
+        <div class="container service-layout">
+          <div class="section-intro"><p class="eyebrow"><span class="eyebrow-line"></span> LE SERVICE</p><h2>Une équipe hospitalo-universitaire, au cœur d’Avicenne.</h2></div>
+          <div class="service-copy"><p>Le service associe activité de soins, enseignement et recherche à l’Hôpital Avicenne, à Bobigny. Il est dirigé par le Pr Thomas Gregory, professeur de chirurgie orthopédique et traumatologique à l’Université Sorbonne Paris Nord.</p><p>L’annuaire AP–HP répertorie les expertises du service, les modalités de consultation et les coordonnées utiles. Les soins et techniques proposés dépendent de la situation de chaque patient et de l’évaluation médicale.</p><div class="service-statements"><div><span>01</span><strong>Consultations publiques</strong><small>Conventionnées secteur 1</small></div><div><span>02</span><strong>Adresseur professionnel</strong><small>Demandes via Direct AP–HP</small></div><div><span>03</span><strong>Hôpital Avicenne</strong><small>Bâtiment Larrey B · Bobigny</small></div></div></div>
         </div>
       </section>
 
-      <section class="section expertise" id="expertises">
-        <div class="shell">
-          <div class="section-heading reveal">
-            <p class="eyebrow"><span>02</span> Nos expertises</p>
-            <h2>Prendre soin du geste.<br /><em>Restaurer la fonction.</em></h2>
-            <p>
-              L’équipe prend en charge les pathologies du membre supérieur et inférieur,
-              les traumatismes et leurs séquelles, avec une expertise reconnue de la main.
-            </p>
+      <section class="section expertise-section" id="expertises">
+        <div class="container">
+          <div class="section-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> OFFRE DE SOINS</p><h2>Domaines d’expertise</h2></div><p>Les pathologies listées ci-dessous sont celles publiées dans l’annuaire AP–HP pour le service d’Avicenne.</p></div>
+          <div class="expertise-grid">
+            <article class="expertise-card expertise-card--featured"><span class="expertise-number">01 / MEMBRE SUPÉRIEUR</span><div class="anatomy-mark anatomy-mark--hand" aria-hidden="true"><svg viewBox="0 0 80 80"><path d="M23 42V22a4 4 0 0 1 8 0v16-25a4 4 0 0 1 8 0v25-20a4 4 0 0 1 8 0v22-15a4 4 0 0 1 8 0v25c0 12-8 20-20 20h-3c-8 0-12-4-16-11l-8-13a4 4 0 0 1 7-4l8 10"/></svg></div><h3>Main, poignet & coude</h3><p>Chirurgie de la main, pathologies du poignet et du coude, syndrome du canal carpien et neuropathies périphériques.</p><a href="https://www.aphp.fr/avicenne/service-de-chirurgie-orthopedique-et-traumatologique" target="_blank" rel="noopener">Consulter l’annuaire du service <span aria-hidden="true">↗</span></a></article>
+            <article class="expertise-card"><span class="expertise-number">02 / MEMBRE SUPÉRIEUR</span><div class="anatomy-mark" aria-hidden="true"><svg viewBox="0 0 80 80"><path d="M25 61c-3-8 0-15 6-20l5-4-8-13a5 5 0 0 1 9-5l9 14 4-18a5 5 0 0 1 10 2l-3 25 8 8c5 5 5 13 0 19H34c-4 0-7-3-9-8Z"/></svg></div><h3>Épaule</h3><p>Pathologies de l’épaule, notamment arthrose et lésions traumatiques, répertoriées par l’AP–HP.</p><a href="https://www.aphp.fr/avicenne/service-de-chirurgie-orthopedique-et-traumatologique" target="_blank" rel="noopener">En savoir plus <span aria-hidden="true">↗</span></a></article>
+            <article class="expertise-card"><span class="expertise-number">03 / MEMBRE INFÉRIEUR</span><div class="anatomy-mark" aria-hidden="true"><svg viewBox="0 0 80 80"><path d="m31 12 18 2-4 24 8 8-4 22-11-1-2-20-9-11 4-24Z"/><path d="m36 46-14 20"/></svg></div><h3>Genou, pied & cheville</h3><p>Arthrose du genou, lésions des ligaments croisés antérieurs, pathologies du pied et arthrose de cheville.</p><a href="https://www.aphp.fr/avicenne/service-de-chirurgie-orthopedique-et-traumatologique" target="_blank" rel="noopener">Consulter l’annuaire du service <span aria-hidden="true">↗</span></a></article>
+            <article class="expertise-card"><span class="expertise-number">04 / TRAUMATOLOGIE</span><div class="anatomy-mark" aria-hidden="true"><svg viewBox="0 0 80 80"><path d="m28 12 24 2-3 20 7 8-4 25-12-2-1-22-9-9-2-22Z"/><path d="m36 39 7-6-2 10 7-5"/></svg></div><h3>Fractures & traumatismes</h3><p>Fractures, séquelles de fractures compliquées et urgences traumatiques.</p><a href="https://www.aphp.fr/avicenne/service-de-chirurgie-orthopedique-et-traumatologique" target="_blank" rel="noopener">Consulter l’annuaire du service <span aria-hidden="true">↗</span></a></article>
           </div>
-
-          <div class="specialty-explorer reveal">
-            <div class="specialty-tabs" role="tablist" aria-label="Choisir une expertise">
-              <button class="specialty-tab is-active" type="button" role="tab" aria-selected="true" data-specialty="main">
-                <span>01</span> Main & poignet
-              </button>
-              <button class="specialty-tab" type="button" role="tab" aria-selected="false" data-specialty="epaule">
-                <span>02</span> Épaule & coude
-              </button>
-              <button class="specialty-tab" type="button" role="tab" aria-selected="false" data-specialty="genou">
-                <span>03</span> Genou & pied
-              </button>
-              <button class="specialty-tab" type="button" role="tab" aria-selected="false" data-specialty="trauma">
-                <span>04</span> Traumatologie
-              </button>
-            </div>
-
-            <div class="specialty-panel" aria-live="polite">
-              <div class="specialty-visual" aria-hidden="true">
-                <svg viewBox="0 0 280 360" role="presentation">
-                  <g class="body-lines" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="140" cy="43" r="25" />
-                    <path d="M117 78c-14 17-22 45-17 75l9 48-18 80M163 78c14 17 22 45 17 75l-9 48 18 80M117 82c15 10 31 10 46 0M109 201l31 18 31-18M140 92v127M91 281l-18 54M189 281l18 54" />
-                    <path d="m100 125-38 50-20 74M180 125l38 50 20 74" />
-                  </g>
-                  <g class="body-points">
-                    <circle data-point="main" cx="40" cy="251" r="10" />
-                    <circle data-point="epaule" cx="100" cy="124" r="10" />
-                    <circle data-point="genou" cx="91" cy="281" r="10" />
-                    <circle data-point="trauma" cx="171" cy="201" r="10" />
-                  </g>
-                </svg>
-                <span class="scan-line"></span>
-              </div>
-              <div class="specialty-copy">
-                <p class="specialty-kicker" data-specialty-kicker>Centre universitaire · Membre supérieur</p>
-                <h3 data-specialty-title>La précision au bout des doigts.</h3>
-                <p data-specialty-text>
-                  Chirurgie de la main et du poignet, syndrome du canal carpien, lésions nerveuses
-                  et urgences : une prise en charge experte, y compris par technique WALANT lorsque indiquée.
-                </p>
-                <ul data-specialty-list>
-                  <li>Pathologies de la main et du poignet</li>
-                  <li>Microchirurgie et neuropathies périphériques</li>
-                  <li>Urgences main 24h/24</li>
-                </ul>
-                <a
-                  class="text-link text-link--blue"
-                  href="https://www.aphp.fr/avicenne/service-de-chirurgie-orthopedique-et-traumatologique"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  Voir toutes les spécialités <span aria-hidden="true">↗</span>
-                </a>
-              </div>
-            </div>
-          </div>
+          <p class="expertise-disclaimer">La présence d’une pathologie dans l’annuaire ne vaut pas indication opératoire. L’équipe médicale détermine le parcours adapté à chaque situation.</p>
         </div>
       </section>
 
-      <section class="section journey" id="parcours">
-        <div class="shell journey-grid">
-          <div class="journey-intro reveal">
-            <p class="eyebrow eyebrow--light"><span>03</span> Votre parcours</p>
-            <h2>Un chemin clair,<br /><em>à chaque étape.</em></h2>
-            <p>
-              Comprendre, décider ensemble, intervenir au bon moment puis accompagner la récupération.
-              Le parcours s’adapte à votre situation clinique.
-            </p>
-            <a
-              class="button button--light"
-              href="https://mon.aphp.fr/demande/type/consultation/95/21"
-              target="_blank"
-              rel="noopener"
-            >
-              Commencer mon parcours <span aria-hidden="true">↗</span>
-            </a>
-          </div>
-
-          <ol class="journey-steps reveal reveal--delay">
-            <li>
-              <div class="step-number">01</div>
-              <div>
-                <h3>Écouter & diagnostiquer</h3>
-                <p>Consultation, examen clinique et lecture de votre imagerie pour poser un diagnostic précis.</p>
-              </div>
-              <span class="step-icon" aria-hidden="true">↗</span>
-            </li>
-            <li>
-              <div class="step-number">02</div>
-              <div>
-                <h3>Décider avec vous</h3>
-                <p>Une stratégie personnalisée, chirurgicale ou non, expliquée avec ses objectifs et ses étapes.</p>
-              </div>
-              <span class="step-icon" aria-hidden="true">↗</span>
-            </li>
-            <li>
-              <div class="step-number">03</div>
-              <div>
-                <h3>Intervenir</h3>
-                <p>Des techniques adaptées à votre pathologie, au sein du plateau chirurgical de l’hôpital.</p>
-              </div>
-              <span class="step-icon" aria-hidden="true">↗</span>
-            </li>
-            <li>
-              <div class="step-number">04</div>
-              <div>
-                <h3>Retrouver le mouvement</h3>
-                <p>Suivi postopératoire, rééducation et reprise progressive de vos activités.</p>
-              </div>
-              <span class="step-icon" aria-hidden="true">↗</span>
-            </li>
-          </ol>
+      <section class="section team-section" id="equipe">
+        <div class="container team-layout">
+          <div class="team-lead"><p class="eyebrow"><span class="eyebrow-line"></span> ÉQUIPE MÉDICALE</p><h2>Des praticiens réunis autour du service.</h2><p>Le Pr Thomas Gregory dirige le service de chirurgie orthopédique et traumatologique de l’Hôpital Avicenne.</p><a class="button button--blue" href="https://www.aphp.fr/pr-gregory-thomas" target="_blank" rel="noopener">Profil AP–HP du Pr Gregory <span aria-hidden="true">↗</span></a></div>
+          <div class="team-list"><div class="team-person team-person--lead"><span class="person-initials">TG</span><span><strong>Pr Thomas Gregory</strong><small>Chef de service · Chirurgie orthopédique et traumatologie</small></span><a href="https://www.aphp.fr/pr-gregory-thomas" target="_blank" rel="noopener" aria-label="Profil AP–HP du Pr Thomas Gregory">↗</a></div><div class="team-person"><span class="person-initials">LC</span><span><strong>Dr Louis Charles Castel</strong><small>Équipe du service</small></span></div><div class="team-person"><span class="person-initials">CD</span><span><strong>Dr Charles Dacheux</strong><small>Équipe du service</small></span></div><div class="team-person"><span class="person-initials">OF</span><span><strong>Dr Olivier Freaud</strong><small>Équipe du service</small></span></div><div class="team-person"><span class="person-initials">CG</span><span><strong>Dr Cyril Guetari</strong><small>Équipe du service</small></span></div><div class="team-person"><span class="person-initials">KH</span><span><strong>Dr Karim Hachem</strong><small>Équipe du service</small></span></div><div class="team-person"><span class="person-initials">AO</span><span><strong>Dr Antoni Orgiu de Ochandiano</strong><small>Équipe du service</small></span></div><a class="full-team-link" href="https://www.aphp.fr/avicenne/service-de-chirurgie-orthopedique-et-traumatologique" target="_blank" rel="noopener">Voir l’équipe complète dans l’annuaire AP–HP <span aria-hidden="true">↗</span></a></div>
         </div>
       </section>
 
-      <section class="section innovation" id="innovation">
-        <div class="shell">
-          <div class="innovation-top">
-            <div class="section-heading section-heading--dark reveal">
-              <p class="eyebrow eyebrow--light"><span>04</span> Innovation chirurgicale</p>
-              <h2>Voir plus loin.<br /><em>Opérer plus juste.</em></h2>
-            </div>
-            <p class="innovation-intro reveal reveal--delay">
-              À Avicenne, réalité mixte et intelligence artificielle sont explorées comme des outils
-              d’aide au geste, de partage d’expertise et de formation — toujours au bénéfice du patient.
-            </p>
-          </div>
-
-          <div class="innovation-feature reveal">
-            <div class="innovation-image">
-              <img
-                src="assets/chirurgie-holographique.webp"
-                alt="Collaboration internationale en réalité mixte pilotée depuis l’Hôpital Avicenne"
-                width="604"
-                height="338"
-                loading="lazy"
-              />
-              <div class="innovation-overlay">
-                <span>AVICENNE / 2021</span>
-                <p>24 Hours Holographic Surgery</p>
-              </div>
-              <p class="image-credit">© AP–HP</p>
-            </div>
-            <div class="innovation-story">
-              <p class="innovation-label">Une culture pionnière</p>
-              <h3>De la première mondiale à la chirurgie augmentée.</h3>
-              <p>
-                En 2017, une intervention de l’épaule assistée par une plateforme collaborative de
-                réalité mixte est réalisée à Avicenne. En 2021, le service pilote 24 heures de chirurgie
-                holographique à travers 13 pays. En 2024, l’exploration se poursuit avec un dispositif
-                de réalité mixte de nouvelle génération.
-              </p>
-              <a
-                class="text-link text-link--light"
-                href="https://www.aphp.fr/actualites/hopital-avicenne-ap-hp-realite-mixte-et-ia-au-service-de-la-chirurgie-orthopedique"
-                target="_blank"
-                rel="noopener"
-              >
-                Lire l’article AP–HP <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-          </div>
-
-          <div class="metrics reveal" aria-label="Repères sur l’innovation">
-            <div><strong>2017</strong><p>Première intervention de l’épaule assistée en réalité mixte</p></div>
-            <div><strong>13</strong><p>pays réunis lors des 24H de chirurgie holographique</p></div>
-            <div><strong>2024</strong><p>Nouvelle étape avec un dispositif de réalité mixte</p></div>
-          </div>
+      <section class="innovation-section" id="innovation">
+        <div class="container innovation-layout">
+          <div class="innovation-copy"><p class="eyebrow eyebrow--light"><span class="eyebrow-line"></span> RECHERCHE & INNOVATION</p><h2>Une histoire d’innovation chirurgicale à Avicenne.</h2><p>Le Pr Thomas Gregory et son équipe ont participé à plusieurs projets AP–HP autour de la réalité mixte en chirurgie orthopédique. Ces jalons témoignent d’une activité hospitalo-universitaire et de recherche ; les techniques utilisées en soin dépendent de chaque indication.</p><a class="innovation-source" href="https://www.aphp.fr/actualites/hopital-avicenne-ap-hp-realite-mixte-et-ia-au-service-de-la-chirurgie-orthopedique" target="_blank" rel="noopener">Lire le dossier AP–HP <span aria-hidden="true">↗</span></a></div>
+          <div class="innovation-visual"><figure><img src="assets/chirurgie-holographique.webp" alt="Visualisation en réalité mixte lors d’une intervention orthopédique à Avicenne" width="604" height="338" loading="lazy" /><figcaption>Chirurgie assistée par réalité mixte · © AP–HP</figcaption></figure><div class="timeline"><div><span>2017</span><p>Intervention de l’épaule avec une plateforme collaborative de réalité mixte à Avicenne.</p></div><div><span>2021</span><p>24 Hours Holographic Surgery : 15 chirurgiens dans 13 pays, avec un pilotage depuis Avicenne.</p></div><div><span>2024</span><p>Une arthroscopie de l’épaule avec Apple Vision Pro, nouvelle étape rapportée par l’AP–HP.</p></div></div></div>
         </div>
       </section>
 
-      <section class="section leadership" id="equipe">
-        <div class="shell leadership-grid">
-          <div class="leadership-card reveal">
-            <div class="monogram" aria-hidden="true">TG</div>
-            <div class="leadership-card__body">
-              <p class="eyebrow"><span>05</span> Direction du service</p>
-              <h2>Pr Thomas<br />Gregory</h2>
-              <p class="role">Chirurgien orthopédiste & traumatologue<br />Professeur à l’Université Sorbonne Paris Nord</p>
-              <a
-                class="text-link text-link--blue"
-                href="https://www.aphp.fr/pr-gregory-thomas"
-                target="_blank"
-                rel="noopener"
-              >
-                Voir le profil AP–HP <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-          </div>
-
-          <div class="leadership-copy reveal reveal--delay">
-            <p class="leadership-label">Notre cap</p>
-            <p class="leadership-manifesto">
-              Précision du geste.<br />Innovation utile.<br />Soin humain.
-            </p>
-            <p>
-              Sous la direction du Pr Thomas Gregory, l’équipe associe expertise clinique,
-              enseignement universitaire et recherche appliquée pour faire progresser la prise en charge.
-            </p>
-            <div class="team-roster">
-              <p>L’équipe médicale</p>
-              <div>
-                <span>Dr Louis Charles Castel</span><span>Dr Charles Dacheux</span>
-                <span>Dr Olivier Freaud</span><span>Dr Cyril Guetari</span>
-                <span>Dr Karim Hachem</span><span>Dr Abdelmalek M’Daghri Alaoui</span>
-                <span>Dr Antoni Orgiu de Ochandiano</span>
-              </div>
-              <small>Équipe indiquée sur l’annuaire AP–HP — octobre 2026.</small>
-            </div>
-          </div>
+      <section class="section access-section" id="acces">
+        <div class="container access-layout">
+          <div class="access-intro"><p class="eyebrow"><span class="eyebrow-line"></span> INFORMATIONS PRATIQUES</p><h2>Venir au service</h2><p>Les consultations du service sont situées à l’Hôpital Avicenne, à Bobigny.</p><a class="button button--blue" href="https://www.google.com/maps/dir/?api=1&destination=H%C3%B4pital+Avicenne%2C+125+rue+de+Stalingrad%2C+93000+Bobigny" target="_blank" rel="noopener">Calculer mon itinéraire <span aria-hidden="true">↗</span></a></div>
+          <div class="access-details"><div class="address-block"><span class="detail-icon" aria-hidden="true">⌖</span><div><small>ADRESSE</small><strong>Hôpital Avicenne AP–HP</strong><p>125 rue de Stalingrad<br />93000 Bobigny</p></div></div><div class="address-block"><span class="detail-icon" aria-hidden="true">☎</span><div><small>RENDEZ-VOUS & SECRÉTARIAT</small><a class="contact-number" href="tel:+33148957100">01 48 95 71 00</a><p>Secrétariat : 01 48 95 53 11<br />ou 01 48 95 53 14</p></div></div><div class="transport-block"><small>TRANSPORTS EN COMMUN</small><p><b>T1</b> Arrêt Hôpital Avicenne<br /><b>M7</b> La Courneuve – 8 mai 1945, puis tramway T1<br /><b>M5</b> Bobigny – Pablo Picasso, puis tramway T1<br /><b>RER E</b> Noisy-le-Sec, puis tramway T1</p><span>Le stationnement n’est pas autorisé dans l’enceinte de l’hôpital. Des places sont disponibles aux alentours.</span></div></div>
         </div>
       </section>
 
-      <section class="section place" aria-labelledby="place-title">
-        <div class="shell">
-          <div class="place-grid">
-            <div class="place-image place-image--main reveal">
-              <img
-                src="assets/avicenne-entree.webp"
-                alt="Entrée historique de l’Hôpital Avicenne à Bobigny"
-                width="896"
-                height="504"
-                loading="lazy"
-              />
-              <p class="image-credit">© AP–HP</p>
-            </div>
-            <div class="place-copy reveal reveal--delay">
-              <p class="eyebrow"><span>06</span> Un hôpital, une histoire</p>
-              <h2 id="place-title">L’héritage d’Avicenne.<br /><em>L’élan de demain.</em></h2>
-              <p>
-                Derrière l’entrée historique, le bâtiment Larrey B accueille depuis 2018
-                la chirurgie orthopédique et traumatologique dans un environnement hospitalier modernisé.
-              </p>
-              <a
-                class="text-link text-link--blue"
-                href="https://hopital-avicenne.aphp.fr/hopitaux/avicenne"
-                target="_blank"
-                rel="noopener"
-              >
-                Découvrir l’Hôpital Avicenne <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-            <div class="place-image place-image--secondary reveal">
-              <img
-                src="assets/larrey-b.webp"
-                alt="Façade contemporaine du bâtiment Larrey B de l’Hôpital Avicenne"
-                width="896"
-                height="504"
-                loading="lazy"
-              />
-              <p class="image-credit">Bâtiment Larrey B · © AP–HP</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section access" id="acces">
-        <div class="shell access-shell">
-          <div class="access-heading reveal">
-            <p class="eyebrow"><span>07</span> Venir & contacter</p>
-            <h2>Votre parcours<br /><em>commence ici.</em></h2>
-          </div>
-
-          <div class="contact-card reveal">
-            <div class="contact-main">
-              <p class="contact-label">Prendre rendez-vous</p>
-              <a class="phone" href="tel:+33148957100">01 48 95 71 00</a>
-              <p>Par téléphone ou via le portail patient AP–HP · Consultation publique conventionnée secteur 1</p>
-              <a
-                class="button button--blue"
-                href="https://mon.aphp.fr/demande/type/consultation/95/21"
-                target="_blank"
-                rel="noopener"
-              >
-                Demande en ligne <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-            <div class="contact-details">
-              <div>
-                <span class="contact-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" /><circle cx="12" cy="10" r="2.5" /></svg>
-                </span>
-                <p><strong>Hôpital Avicenne</strong><span>125 rue de Stalingrad<br />93000 Bobigny</span></p>
-              </div>
-              <div>
-                <span class="contact-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24"><path d="M4 17h16M6 17l1 4m10-4-1 4M7 17l2-10h6l2 10M10 7V3h4v4" /></svg>
-                </span>
-                <p><strong>Tramway T1</strong><span>Arrêt Hôpital Avicenne<br />Métro 5 ou 7 en correspondance</span></p>
-              </div>
-              <a
-                class="route-link"
-                href="https://www.google.com/maps/dir/?api=1&destination=H%C3%B4pital+Avicenne%2C+125+rue+de+Stalingrad%2C+93000+Bobigny"
-                target="_blank"
-                rel="noopener"
-              >
-                Ouvrir l’itinéraire <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section emergency" id="urgences">
-        <div class="shell emergency-grid">
-          <div class="emergency-title reveal">
-            <span class="emergency-cross" aria-hidden="true">+</span>
-            <div>
-              <p class="eyebrow eyebrow--light"><span>08</span> Besoin d’aide maintenant ?</p>
-              <h2>Urgence main<br />ou urgence vitale.</h2>
-            </div>
-          </div>
-          <div class="emergency-actions reveal reveal--delay">
-            <div>
-              <p><strong>Urgence de la main</strong></p>
-              <p>L’accueil dédié se fait au sein du service des urgences de l’Hôpital Avicenne, 24h/24 et 7j/7.</p>
-              <a
-                href="https://www.aphp.fr/espace-medias/liste-ressources-presse/lhopital-avicenne-ap-hp-la-prise-en-charge-des-urgences-mains"
-                target="_blank"
-                rel="noopener"
-              >Consulter les informations AP–HP <span aria-hidden="true">↗</span></a>
-            </div>
-            <div>
-              <p><strong>Urgence vitale</strong></p>
-              <p>Douleur intense, malaise, détresse ou danger immédiat : contactez le SAMU.</p>
-              <a class="emergency-call" href="tel:15">Appeler le 15 <span aria-hidden="true">→</span></a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section faq" aria-labelledby="faq-title">
-        <div class="shell faq-grid">
-          <div class="faq-intro reveal">
-            <p class="eyebrow"><span>09</span> Questions fréquentes</p>
-            <h2 id="faq-title">Avant votre<br /><em>venue.</em></h2>
-          </div>
-          <div class="faq-list reveal reveal--delay">
-            <details>
-              <summary>Comment demander un premier rendez-vous ? <span aria-hidden="true">+</span></summary>
-              <p>La demande peut être faite en ligne sur le portail patient AP–HP ou par téléphone au 01 48 95 71 00.</p>
-            </details>
-            <details>
-              <summary>Que dois-je apporter en consultation ? <span aria-hidden="true">+</span></summary>
-              <p>Votre courrier d’adressage, vos examens d’imagerie et comptes rendus récents, ainsi que vos documents administratifs habituels.</p>
-            </details>
-            <details>
-              <summary>Où se trouve le service ? <span aria-hidden="true">+</span></summary>
-              <p>À l’Hôpital Avicenne, 125 rue de Stalingrad à Bobigny. Le service est accessible par le tramway T1, arrêt Hôpital Avicenne.</p>
-            </details>
-            <details>
-              <summary>Les consultations sont-elles conventionnées ? <span aria-hidden="true">+</span></summary>
-              <p>Oui. Les consultations publiques indiquées par l’AP–HP sont conventionnées secteur 1.</p>
-            </details>
-          </div>
-        </div>
-      </section>
+      <section class="contact-band"><div class="container contact-band-inner"><div><p class="eyebrow eyebrow--light"><span class="eyebrow-line"></span> PRENDRE RENDEZ-VOUS</p><h2>Vous souhaitez consulter le service ?</h2><p>La demande de rendez-vous se fait sur le portail patient AP–HP ou par téléphone.</p></div><div class="contact-band-actions"><a class="button button--white" href="https://mon.aphp.fr/demande/type/consultation/95/21" target="_blank" rel="noopener">Accéder au portail patient <span aria-hidden="true">↗</span></a><a href="tel:+33148957100">01 48 95 71 00 <span aria-hidden="true">→</span></a></div></div></section>
     </main>
 
-    <footer class="site-footer">
-      <div class="shell footer-top">
-        <a class="brand brand--footer" href="#top" aria-label="Retour en haut">
-          <span class="brand-mark" aria-hidden="true"><span></span><span></span></span>
-          <span class="brand-copy"><strong>ORTHO<span>·</span>AVICENNE</strong><small>CHIRURGIE ORTHOPÉDIQUE · AP–HP</small></span>
-        </a>
-        <p>Une expertise universitaire au service de votre mouvement.</p>
-        <a
-          class="button button--light"
-          href="https://mon.aphp.fr/demande/type/consultation/95/21"
-          target="_blank"
-          rel="noopener"
-        >Prendre rendez-vous <span aria-hidden="true">↗</span></a>
-      </div>
-      <div class="shell footer-links">
-        <div>
-          <p>Explorer</p>
-          <a href="#expertises">Expertises</a><a href="#parcours">Votre parcours</a>
-          <a href="#innovation">Innovation</a><a href="#equipe">L’équipe</a>
-        </div>
-        <div>
-          <p>Liens utiles</p>
-          <a href="https://www.aphp.fr/avicenne/service-de-chirurgie-orthopedique-et-traumatologique" target="_blank" rel="noopener">Page officielle AP–HP</a>
-          <a href="https://direct.aphp.fr/service-page/79" target="_blank" rel="noopener">Professionnels de santé</a>
-          <a href="https://hopital-avicenne.aphp.fr/hopitaux/avicenne" target="_blank" rel="noopener">Hôpital Avicenne</a>
-        </div>
-        <div>
-          <p>Contact</p>
-          <a href="tel:+33148957100">01 48 95 71 00</a>
-          <span>125 rue de Stalingrad<br />93000 Bobigny</span>
-        </div>
-      </div>
-      <div class="shell footer-bottom">
-        <p>© <span data-year></span> Service de chirurgie orthopédique et traumatologique · Hôpital Avicenne AP–HP</p>
-        <p>Informations générales : ce site ne remplace pas l’avis d’un professionnel de santé. Photographies © AP–HP.</p>
-      </div>
-    </footer>
+    <footer class="site-footer"><div class="container footer-top"><a class="site-brand" href="#accueil"><span class="brand-cross" aria-hidden="true">+</span><span><strong>Hôpital Avicenne</strong><small>CHIRURGIE ORTHOPÉDIQUE & TRAUMATOLOGIQUE</small></span></a><p>Un service de l’Assistance Publique – Hôpitaux de Paris.</p><div class="footer-links"><a href="https://www.aphp.fr/avicenne/service-de-chirurgie-orthopedique-et-traumatologique" target="_blank" rel="noopener">Page du service AP–HP ↗</a><a href="https://www.aphp.fr/mentions-legales" target="_blank" rel="noopener">Mentions légales AP–HP ↗</a></div></div><div class="container footer-bottom"><span>Informations pratiques vérifiées le 10 octobre 2026.</span><span>Pour une situation médicale individuelle, adressez-vous au service ou à votre médecin.</span><span>Photographies : © AP–HP.</span></div></footer>
   </body>
 </html>
