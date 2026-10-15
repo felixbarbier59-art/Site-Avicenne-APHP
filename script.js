@@ -21,5 +21,5 @@ document.addEventListener("keydown", (event) => {
 });
 
 window.addEventListener("resize", () => {
-  if (window.innerWidth > 760) setMenuOpen(false);
+  if (window.innerWidth > 700) setMenuOpen(false);
 });
