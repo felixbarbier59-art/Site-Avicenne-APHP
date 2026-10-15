@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: avicenne-orthopedie
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeployTrigger: "off"

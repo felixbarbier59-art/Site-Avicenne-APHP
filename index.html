@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0b1118" />
-    <meta name="description" content="Le service de chirurgie orthopédique et traumatologique d’Avicenne : expertises, équipe, accès et rendez-vous à Bobigny." />
-    <meta property="og:title" content="Orthopédie Avicenne — Le mouvement en perspective" />
+    <meta name="description" content="Chirurgie orthopédique et traumatologique à l’Hôpital Avicenne, Bobigny. Expertises, équipe médicale, accès et consultations." />
+    <meta property="og:title" content="Orthopédie Avicenne — Chirurgie orthopédique et traumatologique" />
     <meta property="og:description" content="Chirurgie orthopédique et traumatologique à Avicenne, Bobigny." />
-    <meta property="og:image" content="assets/genou-illustration.jpg" />
-    <title>Orthopédie Avicenne — Le mouvement en perspective</title>
+    <meta property="og:image" content="assets/xray-hand.jpg" />
+    <title>Orthopédie Avicenne — Chirurgie orthopédique et traumatologique</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=4" />
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -21,11 +21,12 @@
     <header class="site-header">
       <div class="shell header-inner">
         <a class="brand" href="#accueil" aria-label="Orthopédie Avicenne, accueil">
-          <span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span>
+          <svg class="brand-symbol" viewBox="0 0 44 40" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="1.7"><path d="M3 36h38M5 34V15h9M35 15h4v19M14 15V7h21v8M16 36V24a6 6 0 0 1 12 0v12" /></g><path d="M7 18v11m4-11v11m23-11v11m4-11v11M17 10h15" fill="none" stroke="#83b5e1" stroke-linecap="square" stroke-width="1.4" /></svg>
           <span class="brand-name">AVICENNE<span>/</span>ORTHO</span>
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu"><span></span><span></span></button>
         <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+          <a href="#parcours">Parcours</a>
           <a href="#expertises">Expertises</a>
           <a href="#innovation">Innovation</a>
           <a href="#equipe">Le service</a>
@@ -39,25 +40,66 @@
       <section class="hero" id="accueil">
         <div class="hero-grid shell">
           <div class="hero-copy">
-            <p class="eyebrow"><span class="eyebrow-mark"></span> CHIRURGIE ORTHOPÉDIQUE & TRAUMATOLOGIQUE <span class="eyebrow-place">BOBIGNY · 93</span></p>
-            <h1>Le mouvement<br />en <em>perspective.</em></h1>
-            <p class="hero-lead">Comprendre l’anatomie. Maîtriser le geste. Accompagner chaque parcours avec exigence.</p>
+            <p class="eyebrow"><span class="eyebrow-mark"></span> HÔPITAL AVICENNE <span class="eyebrow-place">BOBIGNY · 93</span></p>
+            <h1>Chirurgie<br /><em>orthopédique</em><br />& traumatologique.</h1>
+            <p class="hero-lead">Une équipe hospitalière dédiée aux pathologies de l’appareil locomoteur, aux traumatismes et à la chirurgie des membres.</p>
             <div class="hero-actions">
-              <a class="button button--lime" href="https://mon.aphp.fr/demande/type/consultation/95/21" target="_blank" rel="noopener">Demander un rendez-vous <span aria-hidden="true">↗</span></a>
+              <a class="button button--primary" href="https://mon.aphp.fr/demande/type/consultation/95/21" target="_blank" rel="noopener">Prendre rendez-vous <span aria-hidden="true">↗</span></a>
               <a class="button button--quiet" href="tel:+33148957100"><span class="phone-dot" aria-hidden="true"></span> 01 48 95 71 00</a>
             </div>
             <div class="hero-meta"><span>CHEF DE SERVICE</span><strong>Pr Thomas Gregory</strong><i></i><span>CONSULTATIONS PUBLIQUES · SECTEUR 1</span></div>
           </div>
           <figure class="hero-visual">
-            <img src="assets/genou-illustration.jpg" alt="Visualisation 3D illustrative de l’articulation du genou, sans données patient" width="1536" height="1024" fetchpriority="high" />
-            <div class="visual-coordinate visual-coordinate--top"><span>VUE ANATOMIQUE</span><b>01 / 04</b></div>
-            <div class="visual-coordinate visual-coordinate--bottom"><span>GENOU</span><span>IMAGERIE 3D · ILLUSTRATION</span></div>
+            <img src="assets/xray-hand.jpg" alt="Radiographie synthétique de la main et du poignet, visuel illustratif non clinique" width="1254" height="1254" fetchpriority="high" />
+            <div class="visual-coordinate visual-coordinate--top"><span>IMAGERIE ORTHOPÉDIQUE</span><b>MAIN · FACE</b></div>
+            <div class="visual-coordinate visual-coordinate--bottom"><span>ANATOMIE</span><span>VISUEL SYNTHÉTIQUE · NON CLINIQUE</span></div>
             <span class="visual-crosshair visual-crosshair--one" aria-hidden="true">+</span>
             <span class="visual-crosshair visual-crosshair--two" aria-hidden="true">+</span>
           </figure>
           <div class="hero-index" aria-hidden="true"><span>ORTHOPÉDIE</span><span>AVICENNE — 48°54′N</span></div>
         </div>
-        <div class="hero-footer shell"><span>UN SERVICE HOSPITALO-UNIVERSITAIRE</span><span class="hero-footer-rule"></span><span>HÔPITAL AVICENNE · BOBIGNY</span><a href="#expertises">EXPLORER LE SERVICE <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-footer shell"><span>ORTHOPÉDIE & TRAUMATOLOGIE</span><span class="hero-footer-rule"></span><span>HÔPITAL AVICENNE · BOBIGNY</span><a href="#expertises">DÉCOUVRIR LE SERVICE <span aria-hidden="true">↓</span></a></div>
+      </section>
+
+      <section class="pathway-section" id="parcours" aria-labelledby="pathway-title">
+        <div class="shell pathway-shell">
+          <div class="pathway-heading">
+            <div><p class="eyebrow eyebrow--dark"><span class="eyebrow-number">00</span> ACCÈS AU SERVICE</p><h2 id="pathway-title">Votre parcours,<br /><em>en clair.</em></h2></div>
+            <p>Les bons repères pour joindre le service, préparer une consultation ou orienter un patient.</p>
+          </div>
+          <div class="pathway-console">
+            <div class="pathway-sidebar">
+              <span class="console-label">CHOISIR UN PARCOURS</span>
+              <div class="pathway-tabs" role="tablist" aria-label="Choisir votre parcours">
+                <button type="button" class="pathway-tab" id="tab-consult" role="tab" aria-controls="panel-consult" data-pathway="consult" aria-selected="true" tabindex="0"><span>01</span> Consultation <b aria-hidden="true">↗</b></button>
+                <button type="button" class="pathway-tab" id="tab-urgent" role="tab" aria-controls="panel-urgent" data-pathway="urgent" aria-selected="false" tabindex="-1"><span>02</span> Urgence de la main <b aria-hidden="true">↗</b></button>
+                <button type="button" class="pathway-tab" id="tab-refer" role="tab" aria-controls="panel-refer" data-pathway="refer" aria-selected="false" tabindex="-1"><span>03</span> Médecin adresseur <b aria-hidden="true">↗</b></button>
+              </div>
+              <div class="console-address"><span class="console-label">LOCALISATION</span><strong>Hôpital Avicenne</strong><span>125 rue de Stalingrad<br />93000 Bobigny</span><a href="https://www.google.com/maps/dir/?api=1&destination=H%C3%B4pital+Avicenne%2C+125+rue+de+Stalingrad%2C+93000+Bobigny" target="_blank" rel="noopener">Ouvrir l’itinéraire <i aria-hidden="true">↗</i></a></div>
+            </div>
+            <div class="pathway-content" aria-live="polite">
+              <article class="pathway-panel" id="panel-consult" role="tabpanel" aria-labelledby="tab-consult" data-panel="consult" tabindex="0">
+                <span class="console-label"><i class="status-dot" aria-hidden="true"></i> CONSULTATIONS PUBLIQUES · SECTEUR 1</span>
+                <h3>Préparer une consultation</h3>
+                <p>Le secrétariat du service vous oriente pour les rendez-vous et les informations pratiques.</p>
+                <div class="pathway-contact"><div><span class="console-label">SECRÉTARIAT</span><a href="tel:+33148955311">01 48 95 53 11</a><a href="tel:+33148955314">01 48 95 53 14</a></div><a class="button button--primary" href="https://mon.aphp.fr/demande/type/consultation/95/21" target="_blank" rel="noopener">Demander un rendez-vous <span aria-hidden="true">↗</span></a></div>
+              </article>
+              <article class="pathway-panel" id="panel-urgent" role="tabpanel" aria-labelledby="tab-urgent" data-panel="urgent" tabindex="0" hidden>
+                <span class="console-label"><i class="status-dot" aria-hidden="true"></i> ACCUEIL 24H/24 · 7J/7</span>
+                <h3>Urgence de la main</h3>
+                <p>Les urgences de la main sont accueillies au service des urgences de l’hôpital, de jour comme de nuit.</p>
+                <div class="pathway-contact"><div><span class="console-label">HÔPITAL AVICENNE</span><a href="tel:+33148957100">01 48 95 71 00</a><span class="contact-hint">Standard de l’hôpital</span></div><a class="button button--primary" href="https://www.aphp.fr/avicenne/service-de-chirurgie-orthopedique-et-traumatologique" target="_blank" rel="noopener">Informations du service <span aria-hidden="true">↗</span></a></div>
+              </article>
+              <article class="pathway-panel" id="panel-refer" role="tabpanel" aria-labelledby="tab-refer" data-panel="refer" tabindex="0" hidden>
+                <span class="console-label"><i class="status-dot" aria-hidden="true"></i> CORRESPONDANTS MÉDICAUX</span>
+                <h3>Adresser un patient</h3>
+                <p>Pour une demande d’avis ou d’orientation, utilisez le parcours dédié aux professionnels de santé.</p>
+                <div class="pathway-contact"><div><span class="console-label">ÉQUIPE MÉDICALE</span><strong>Chirurgie orthopédique<br />et traumatologique</strong></div><a class="button button--primary" href="https://direct.aphp.fr/service-page/79" target="_blank" rel="noopener">Accéder à Direct <span aria-hidden="true">↗</span></a></div>
+              </article>
+              <div class="console-foot"><span>HÔPITAL AVICENNE · BOBIGNY</span><span>INFORMATIONS PRATIQUES</span></div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="intro-section section shell" id="expertises">
@@ -66,12 +108,12 @@
           <div class="intro-heading"><h2>Chaque articulation<br />a son <em>langage.</em></h2><p>Le service prend en charge les pathologies orthopédiques et les traumatismes des membres supérieurs et inférieurs.</p></div>
         </div>
         <div class="specialty-grid">
-          <article class="specialty-card specialty-card--hand"><span class="card-index">01 / MEMBRE SUPÉRIEUR</span><div class="joint-visual joint-visual--hand" aria-hidden="true"><svg viewBox="0 0 150 150"><path d="M55 105V60a7 7 0 0 1 14 0v30-52a7 7 0 0 1 14 0v53-43a7 7 0 0 1 14 0v48-33a7 7 0 0 1 14 0v42c0 22-15 36-36 36h-5c-14 0-24-8-31-20l-15-26a7 7 0 0 1 12-8l19 25" /></svg></div><h3>Main, poignet<br />& coude</h3><p>Chirurgie de la main, pathologies du poignet et du coude, canal carpien et neuropathies périphériques.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
-          <article class="specialty-card"><span class="card-index">02 / ÉPAULE</span><div class="joint-visual joint-visual--shoulder" aria-hidden="true"><svg viewBox="0 0 150 150"><path d="M58 24c-8 15-14 30-13 46 1 10 7 15 17 14l14-2 10 45M92 24c8 15 14 30 13 46-1 10-7 15-17 14l-14-2-10 45M58 25c10 10 24 10 34 0M45 70 21 98M105 70l24 28" /><circle cx="75" cy="70" r="13" /></svg></div><h3>Épaule</h3><p>Pathologies de l’épaule, dont arthrose et lésions liées aux traumatismes.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
-          <article class="specialty-card"><span class="card-index">03 / MEMBRE INFÉRIEUR</span><div class="joint-visual joint-visual--knee" aria-hidden="true"><svg viewBox="0 0 150 150"><path d="m53 17 42 4-8 40 13 14-8 58-23-2-5-43-17-21 6-50ZM67 82l-28 48" /><circle cx="76" cy="75" r="22" /></svg></div><h3>Genou, pied<br />& cheville</h3><p>Arthrose, ligaments croisés, pathologies du pied et arthrose de cheville.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
-          <article class="specialty-card specialty-card--trauma"><span class="card-index">04 / TRAUMATOLOGIE</span><div class="joint-visual joint-visual--trauma" aria-hidden="true"><svg viewBox="0 0 150 150"><path d="M48 22c9-12 19-12 28 0l8 13-8 19 13 18-7 20 14 13c10 10 0 26-13 21l-19-8-16 10c-13 8-26-7-16-18l12-14-8-21 12-17-9-20c-5-10 1-20 9-25Z" /><path d="m68 60-8 15 14 7-8 15" /></svg></div><h3>Fractures &<br />traumatismes</h3><p>Fractures, traumatismes et prise en charge des séquelles compliquées.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+          <article class="specialty-card specialty-card--hand"><span class="card-index">01 / MEMBRE SUPÉRIEUR</span><figure class="joint-visual joint-visual--hand"><img src="assets/xray-hand.jpg" alt="" width="1254" height="1254" loading="lazy" /><figcaption>RADIOGRAPHIE SYNTHÉTIQUE · NON CLINIQUE</figcaption></figure><h3>Main, poignet<br />& coude</h3><p>Chirurgie de la main, pathologies du poignet et du coude, canal carpien et neuropathies périphériques.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+          <article class="specialty-card"><span class="card-index">02 / ÉPAULE</span><figure class="joint-visual joint-visual--shoulder"><img src="assets/xray-shoulder.jpg" alt="" width="1254" height="1254" loading="lazy" /><figcaption>RADIOGRAPHIE SYNTHÉTIQUE · NON CLINIQUE</figcaption></figure><h3>Épaule</h3><p>Pathologies de l’épaule, dont arthrose et lésions liées aux traumatismes.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+          <article class="specialty-card"><span class="card-index">03 / MEMBRE INFÉRIEUR</span><figure class="joint-visual joint-visual--knee"><img src="assets/xray-knee.jpg" alt="" width="1254" height="1254" loading="lazy" /><figcaption>RADIOGRAPHIE SYNTHÉTIQUE · NON CLINIQUE</figcaption></figure><h3>Genou, pied<br />& cheville</h3><p>Arthrose, ligaments croisés, pathologies du pied et arthrose de cheville.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+          <article class="specialty-card specialty-card--trauma"><span class="card-index">04 / TRAUMATOLOGIE</span><figure class="joint-visual joint-visual--trauma"><img src="assets/xray-trauma.jpg" alt="" width="1254" height="1254" loading="lazy" /><figcaption>RADIOGRAPHIE SYNTHÉTIQUE · NON CLINIQUE</figcaption></figure><h3>Fractures &<br />traumatismes</h3><p>Fractures, traumatismes et prise en charge des séquelles compliquées.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
         </div>
-        <p class="section-note">La stratégie de soins est définie par l’équipe après évaluation médicale de chaque situation.</p>
+        <p class="section-note">La stratégie de soins est définie par l’équipe après évaluation médicale de chaque situation. Les visuels radiologiques sont synthétiques, illustratifs et non cliniques.</p>
       </section>
 
       <section class="innovation-section" id="innovation">
@@ -97,12 +139,12 @@
       <section class="contact-section" id="acces">
         <div class="contact-shell shell">
           <div class="contact-heading"><p class="eyebrow"><span class="eyebrow-number">04</span> CONSULTATIONS & ACCÈS</p><h2>Au plus près<br />du <em>mouvement.</em></h2><p>Hôpital Avicenne · Bâtiment Larrey B<br />125 rue de Stalingrad, 93000 Bobigny</p><a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=H%C3%B4pital+Avicenne%2C+125+rue+de+Stalingrad%2C+93000+Bobigny" target="_blank" rel="noopener">Ouvrir l’itinéraire <span aria-hidden="true">↗</span></a></div>
-          <div class="contact-card"><div class="contact-primary"><span class="contact-label">RENDEZ-VOUS</span><a href="tel:+33148957100" class="contact-phone">01 48 95 71 00</a><span class="contact-sub">Consultations publiques · secteur 1</span><a class="button button--lime" href="https://mon.aphp.fr/demande/type/consultation/95/21" target="_blank" rel="noopener">Prendre rendez-vous en ligne <span aria-hidden="true">↗</span></a></div><div class="contact-details"><div><span class="contact-key">SECRÉTARIAT</span><a href="tel:+33148955311">01 48 95 53 11</a><a href="tel:+33148955314">01 48 95 53 14</a></div><div><span class="contact-key">TRANSPORTS</span><p>T1 · arrêt Hôpital Avicenne<br />M7 · La Courneuve 8 mai 1945 → T1 Noisy-le-Sec<br />M5 · Bobigny Pablo Picasso → T1 Saint-Denis<br />RER E · Noisy-le-Sec → T1 Saint-Denis</p></div><div class="contact-urgent"><span class="contact-key">URGENCES DE LA MAIN</span><p>Accueil 24h/24 et 7j/7 au service des urgences de l’hôpital.</p></div></div></div>
+          <div class="contact-card"><div class="contact-primary"><span class="contact-label">RENDEZ-VOUS</span><a href="tel:+33148957100" class="contact-phone">01 48 95 71 00</a><span class="contact-sub">Consultations publiques · secteur 1</span><a class="button button--primary" href="https://mon.aphp.fr/demande/type/consultation/95/21" target="_blank" rel="noopener">Prendre rendez-vous en ligne <span aria-hidden="true">↗</span></a></div><div class="contact-details"><div><span class="contact-key">SECRÉTARIAT</span><a href="tel:+33148955311">01 48 95 53 11</a><a href="tel:+33148955314">01 48 95 53 14</a></div><div><span class="contact-key">TRANSPORTS</span><p>T1 · arrêt Hôpital Avicenne<br />M7 · La Courneuve 8 mai 1945 → T1 Noisy-le-Sec<br />M5 · Bobigny Pablo Picasso → T1 Saint-Denis<br />RER E · Noisy-le-Sec → T1 Saint-Denis</p></div><div class="contact-urgent"><span class="contact-key">URGENCES DE LA MAIN</span><p>Accueil 24h/24 et 7j/7 au service des urgences de l’hôpital.</p></div></div></div>
           <div class="professional-strip"><span>MÉDECINS ADRESSEURS</span><p>Une demande d’avis ou d’orientation pour un patient ?</p><a href="https://direct.aphp.fr/service-page/79" target="_blank" rel="noopener">Adresser un patient <span aria-hidden="true">↗</span></a></div>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer"><div class="shell footer-inner"><a class="brand brand--footer" href="#accueil"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span><span class="brand-name">AVICENNE<span>/</span>ORTHO</span></a><span>CHIRURGIE ORTHOPÉDIQUE & TRAUMATOLOGIQUE · BOBIGNY</span><span>Site de présentation indépendant · visuel anatomique illustratif, non clinique</span><a href="#accueil">Retour en haut ↑</a></div></footer>
+    <footer class="site-footer"><div class="shell footer-inner"><a class="brand brand--footer" href="#accueil"><svg class="brand-symbol" viewBox="0 0 44 40" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="1.7"><path d="M3 36h38M5 34V15h9M35 15h4v19M14 15V7h21v8M16 36V24a6 6 0 0 1 12 0v12" /></g><path d="M7 18v11m4-11v11m23-11v11m4-11v11M17 10h15" fill="none" stroke="#83b5e1" stroke-linecap="square" stroke-width="1.4" /></svg><span class="brand-name">AVICENNE<span>/</span>ORTHO</span></a><span>CHIRURGIE ORTHOPÉDIQUE & TRAUMATOLOGIQUE · BOBIGNY</span><span>Site de présentation indépendant · visuels anatomiques illustratifs, non cliniques</span><a href="#accueil">Retour en haut ↑</a></div></footer>
   </body>
 </html>
